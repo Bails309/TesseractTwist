@@ -1,0 +1,17 @@
+node_modules
+test-results
+playwright-report
+coverage
+blob-report
+tests
+.git
+.github
+.gitignore
+.dockerignore
+README.md
+LICENSE
+package.json
+package-lock.json
+jest.config.js
+playwright.config.js
+*.md

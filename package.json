@@ -1,0 +1,16 @@
+{
+  "name": "tesseract-twist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A playable N×N×N×N 4D Rubik's Cube (Tesseract puzzle) with Three.js rendering",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:unit": "jest --verbose tests/unit/",
+    "test:e2e": "npx playwright test",
+    "test:ci": "jest --ci --coverage tests/unit/ && npx playwright test"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@playwright/test": "^1.45.0"
+  }
+}

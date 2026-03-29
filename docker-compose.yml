@@ -1,0 +1,6 @@
+services:
+  tesseract-twist:
+    build: .
+    ports:
+      - "9090:80"
+    restart: unless-stopped
